@@ -1,0 +1,11 @@
+:root {
+    --theme-color:#f9fafa;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: var(--theme-color);
+}
+a {
+    text-decoration: none;
+}
