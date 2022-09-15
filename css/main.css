@@ -1,11 +1,19 @@
 :root {
-    --theme-color:#f9fafa;
+    --secondary-color: #56324f;
+    --primary-color: #783f5a;
+    --menu-mobile-background-color: #a9596d;
+    --nav-bar-shallow-color: #d98187;
+    --theme-color: #dcaa93;
+    --text-color: rgba(10, 9, 9, 0.603);
+    --text-color-inverse:white;
 }
-
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: var(--theme-color);
+    color: var(--text-color)
+
 }
 a {
     text-decoration: none;
+    color: var(--text-color)
 }
